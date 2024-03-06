@@ -36,7 +36,7 @@ const NuevoPresupuesto = ({
 
         <form onSubmit={handlePresupuesto} className="formulario">
             <div className="campo">
-                <label>Definir Presupuesto</label>
+                <label>Presupuesto</label>
                 <input 
                 className="nuevo-presupuesto" 
                 type="number" 
