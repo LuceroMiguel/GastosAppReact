@@ -69,25 +69,6 @@ header h1 {
 }
 
 
-
-
-
-
-
-/*media phone*/
-@media (max-width: 480px) {
-    .formulario input[type="text"].nuevo-presupuesto, .formulario input[type="number"].nuevo-presupuesto {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-}
-
-
-
-
-
-
-
 @media (min-width: 768px) {
     .formulario {
         padding: 4rem 0;
@@ -144,7 +125,7 @@ header h1 {
     }
 }
 .formulario input[type="submit"]:hover {
-    background-color: var(--azul);
+    background-color: var(--gris-oscuro);
     cursor: pointer;
 }
 

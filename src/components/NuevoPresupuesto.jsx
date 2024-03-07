@@ -14,7 +14,7 @@ const NuevoPresupuesto = ({
     
     const handlePresupuesto = (e) =>{
         e.preventDefault();
-        /*posible fallo*/
+        
         if(!presupuesto || (presupuesto) < 0  ) {
             setMensaje('No es un presupuesto válido')
             return
@@ -36,11 +36,11 @@ const NuevoPresupuesto = ({
 
         <form onSubmit={handlePresupuesto} className="formulario">
             <div className="campo">
-                <label>Presupuesto</label>
+                <label>Añade tu presupuesto</label>
                 <input 
                 className="nuevo-presupuesto" 
                 type="number" 
-                placeholder="Añade tu Presupuesto" 
+                placeholder="Cantidad $" 
                 onChange={e => setPresupuesto(Number(e.target.value))}/>
             </div>
 
