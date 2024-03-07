@@ -66,12 +66,12 @@ const Modal = ({
         >
 
             
-            <legend>{gastoEditar.nombre ? 'Editar Gasto' : 'Nuevo Gasto'}</legend>
+            <legend>{gastoEditar.nombre ? 'Editar gasto' : 'Nuevo gasto'}</legend>
             {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
             
 
             <div className="campo">
-                <label htmlFor="nombre">Nombre Gasto</label>
+                <label htmlFor="nombre">Nombre del gasto</label>
                 <input  id="nombre"
                         type="text"
                         placeholder="Añade el nombre del gasto"
